@@ -2,6 +2,8 @@ import './about.css'
 import AboutImage from './../../assets/about.jpg'
 import CV from './../../assets/cv.pdf'
 import {HiDownload} from 'react-icons/hi'
+import Card from './../../components/Card'
+import data from './data.js'
 
 const About = () => {
   return (
@@ -14,7 +16,17 @@ const About = () => {
         </div>
         <div className="about__right">
           <h2>About Me</h2>
-          <div className="about__cards"></div>
+          <div className="about__cards">
+            {
+              data.map(item => (
+                <Card key={item.id} className="about__card">
+                  <span className='about__card-icon'>{item.icon}</span>
+                  <h5>{item.title}</h5>
+                  <small>{item.desc}</small>
+                </Card>
+              ))
+            }
+          </div>
           <p>
             Building projects my clients love has always been my passion.  Being in the development industry for over 20 years and serving small businesses and large corporations worldwide.  I continue to be motivated to do my best!
           </p>
