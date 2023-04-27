@@ -1,8 +1,14 @@
+import Project from "./Project"
 
-
-const Projects = () => {
+const Projects = ({projects}) => {
   return (
-    <div>Projects</div>
+    <div className="portfolio__projects">
+        {
+            projects.map(project => (
+                <Project key={project.id} project={project} />
+            ))
+        }
+    </div>
   )
 }
 
