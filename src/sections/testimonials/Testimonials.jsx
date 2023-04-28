@@ -18,9 +18,9 @@ import './testimonials.css'
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h2>What My Clients Say</h2>
+      <h2>Clients and Co-worker Thoughts</h2>
       <p>
-        These are unbiased testmonials from some of my clients
+        Recommendations and testimonials from former co-workers and clients
       </p>
       <div className="container">
       <Swiper

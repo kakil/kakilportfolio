@@ -11,85 +11,85 @@ import Image9 from '../../assets/project9.jpg'
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'web',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Kitwana's Portfolio (WEB)",
+        desc: "My most recent web project is this portfolio website that I put together to promote myself and my brand.  It uses React JS, HTML, and CSS.",
         demo: 'https://kitwanaakil.com',
-        github: 'https://github.com/kakil'
+        github: 'https://github.com/kakil/kakilportfolio'
     },
     {
         id: 2,
-        category: 'frontend',
+        category: 'ai',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://kitwanaakil.com',
-        github: 'https://github.com/kakil'
+        title: "AI Author X (AI)",
+        desc: "AI Author X is a ChatGPT text and image generation SaaS app that acts as a starter kit for users who want to create their own software business.",
+        demo: 'https://aiauthorx.com',
+        github: 'https://github.com/kakil/'
     },
     {
         id: 3,
-        category: 'frontend',
+        category: 'mobile',
         image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://kitwanaakil.com',
+        title: "Itel Now (MOBILE)",
+        desc: "Itel Now is an app that guides insurance adjusters through the process of filing insurance claims in the field.",
+        demo: 'https://apps.apple.com/us/app/itel-now/id1128202643?platform=iphone',
         github: 'https://github.com/kakil'
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'ai',
         image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://kitwanaakil.com',
+        title: "AI Content Toolkit (AI)",
+        desc: "AI Content Toolkit Wordpress Plugin is a plugin that allows users to create AI content from integration with OpenAI's APIs for text-to-text and text-to-image responses.",
+        demo: 'https://www.toolkitsforsuccess.com/aicontenttoolkit',
         github: 'https://github.com/kakil'
     },
-    {
-        id: 5,
-        category: 'uiux',
-        image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'https://kitwanaakil.com',
-        github: 'https://github.com/kakil'
-    },
-    {
-        id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://kitwanaakil.com',
-        github: 'https://github.com/kakil'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://kitwanaakil.com',
-        github: 'https://github.com/kakil'
-    },
-    {
-        id: 8,
-        category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://kitwanaakil.com',
-        github: 'https://github.com/kakil'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://kitwanaakil.com',
-        github: 'https://github.com/kakil'
-    }
+    // {
+    //     id: 5,
+    //     category: 'mobile',
+    //     image: Image5,
+    //     title: "Project Title Five (UIUX)",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
+    //     demo: 'https://kitwanaakil.com',
+    //     github: 'https://github.com/kakil'
+    // },
+    // {
+    //     id: 6,
+    //     category: 'web',
+    //     image: Image6,
+    //     title: "Project Title Six (Frontend)",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    //     demo: 'https://kitwanaakil.com',
+    //     github: 'https://github.com/kakil'
+    // },
+    // {
+    //     id: 7,
+    //     category: 'ai',
+    //     image: Image7,
+    //     title: "Project Title Seven (Frontend)",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    //     demo: 'https://kitwanaakil.com',
+    //     github: 'https://github.com/kakil'
+    // },
+    // {
+    //     id: 8,
+    //     category: 'crypto',
+    //     image: Image8,
+    //     title: "Project Title Eight (Backend)",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    //     demo: 'https://kitwanaakil.com',
+    //     github: 'https://github.com/kakil'
+    // },
+    // {
+    //     id: 9,
+    //     category: 'mobile',
+    //     image: Image9,
+    //     title: "Project Title Nine (Frontend)",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    //     demo: 'https://kitwanaakil.com',
+    //     github: 'https://github.com/kakil'
+    // }
 ]
 
 

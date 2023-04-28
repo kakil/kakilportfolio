@@ -8,7 +8,7 @@ import './modal.css'
 
 const Modal = ({className, children}) => {
     const {showModal, closeModalHandler} = useModalContext();
-    console.log("Inside Modal");
+  
   return (
     <Fragment>
         {

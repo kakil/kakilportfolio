@@ -10,53 +10,53 @@ import Avatar7 from '../../assets/avatar7.jpg'
 const data = [
         {
         id: 1,
-        quote: "It's truly amazing how you did exactly what I want with the little information I gave. You'll be my go-to developer from today. Highly recommend!",
+        quote: "After working with Kitwana at Sky Parlor Studios I can say he is a pleasure to work with, and would be a huge asset to any team. He is a veteran iOS engineer, and as such is extremely knowledgeable of the subject area. He was not only an asset to the programming team, but the design team as well, providing insights and helping to guide the overall design of our application.",
         avatar: Avatar1,
-        name: 'Nana Ama McBrown',
-        profession: 'Actress'
+        name: 'Zach Helms',
+        profession: 'C# Developer'
         },
         {
         id: 2,
-        quote: "Good job, Hajia! Right on time! I really like how the project turned out, and my customers like it as well. It was fun collaborating with you.",
+        quote: "I worked with Kitwana at Yellowbook and was always impressed with his ability to analyze, solve problems, and design solutions that met with the company's design goals and objectives. Kitwana worked very well with other people on the project, was one of the most productive parts of the team, both during the initial on site portion of the project and the subsequent remote portion.",
         avatar: Avatar2,
-        name: 'Ernest Achiever',
-        profession: 'Web Developer'
+        name: 'Andrew Kinnie',
+        profession: 'iOS Developer'
         },
-        {
-        id: 3,
-        quote: "Impressive work, buddy. Highly recommend!",
-        avatar: Avatar3,
-        name: 'Daniel Vinyo',
-        profession: 'Graphic Designer'
-        },
-        {
-        id: 4,
-        quote: "Wow. You finished earlier than you said. Everything's modern and beautifully done to the T. Great profession!",
-        avatar: Avatar4,
-        name: 'Diana Ayi',
-        profession: 'Singer'
-        },
-        {
-        id: 5,
-        quote: "I like how the app turned out. You are incredible, Hajia.",
-        avatar: Avatar5,
-        name: 'Vivian Mensah',
-        profession: 'Street Photographer'
-        },
-        {
-        id: 6,
-        quote: "Best developer in the world!",
-        avatar: Avatar6,
-        name: 'Hajia Bintu',
-        profession: 'Brand Influencer'
-        },
-        {
-        id: 7,
-        quote: "Keep doing great stuff, dear! Nicely executed!",
-        avatar: Avatar7,
-        name: 'Nicki Nyarko',
-        profession: 'Makeup Artist'
-        }
+        // {
+        // id: 3,
+        // quote: "Impressive work, buddy. Highly recommend!",
+        // avatar: Avatar3,
+        // name: 'Daniel Vinyo',
+        // profession: 'Graphic Designer'
+        // },
+        // {
+        // id: 4,
+        // quote: "Wow. You finished earlier than you said. Everything's modern and beautifully done to the T. Great profession!",
+        // avatar: Avatar4,
+        // name: 'Diana Ayi',
+        // profession: 'Singer'
+        // },
+        // {
+        // id: 5,
+        // quote: "I like how the app turned out. You are incredible, Hajia.",
+        // avatar: Avatar5,
+        // name: 'Vivian Mensah',
+        // profession: 'Street Photographer'
+        // },
+        // {
+        // id: 6,
+        // quote: "Best developer in the world!",
+        // avatar: Avatar6,
+        // name: 'Hajia Bintu',
+        // profession: 'Brand Influencer'
+        // },
+        // {
+        // id: 7,
+        // quote: "Keep doing great stuff, dear! Nicely executed!",
+        // avatar: Avatar7,
+        // name: 'Nicki Nyarko',
+        // profession: 'Makeup Artist'
+        // }
     ]
 
 

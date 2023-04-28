@@ -7,7 +7,7 @@ export const ModalProvider = ({children}) => {
     const [showModal, setShowModal] = useState(false);
 
     const showModalHandler = () => {
-        console.log("Show Modal");
+        
         setShowModal(true);
     }
     const closeModalHandler = () => {
