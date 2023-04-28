@@ -7,7 +7,7 @@ const Services = () => {
     <section id="services">
       <h2>Services</h2>
       <p>I will provide you with these exceptional services below</p>
-      <div className="container services__container">
+      <div className="container services__container" data-aos="fade-up">
         {
           data.map(item => (
             <Card key={item.id} className="service light">
