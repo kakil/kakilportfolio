@@ -2,7 +2,7 @@ import Image1 from '../../assets/project1.jpg'
 import Image2 from '../../assets/project2.jpg'
 import Image3 from '../../assets/project3.jpg'
 import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
+import Image5 from '../../assets/project5.png'
 import Image6 from '../../assets/project6.jpg'
 import Image7 from '../../assets/project7.jpg'
 import Image8 from '../../assets/project8.jpg'
@@ -45,15 +45,15 @@ const data = [
         demo: 'https://www.toolkitsforsuccess.com/aicontenttoolkit',
         github: 'https://github.com/kakil'
     },
-    // {
-    //     id: 5,
-    //     category: 'mobile',
-    //     image: Image5,
-    //     title: "Project Title Five (UIUX)",
-    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-    //     demo: 'https://kitwanaakil.com',
-    //     github: 'https://github.com/kakil'
-    // },
+    {
+        id: 5,
+        category: 'ai',
+        image: Image5,
+        title: "AI Toolkit SaaS (AI)",
+        desc: "An AI Prompt engine made with MERN => MangoDB, Exact JS, React JS, and Node JS.  The web app is deployed with Github and Microsoft Azure.net",
+        demo: 'https://toolkitsaas.azurewebsites.net',
+        github: 'https://github.com/kakil/AIToolkitSaaS/settings'
+    },
     // {
     //     id: 6,
     //     category: 'web',
