@@ -4,7 +4,7 @@ import Image3 from '../../assets/project3.jpg'
 import Image4 from '../../assets/project4.jpg'
 import Image5 from '../../assets/project5.png'
 import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
+import Image7 from '../../assets/project7.png'
 import Image8 from '../../assets/project8.jpg'
 import Image9 from '../../assets/project9.jpg'
 
@@ -63,15 +63,15 @@ const data = [
     //     demo: 'https://kitwanaakil.com',
     //     github: 'https://github.com/kakil'
     // },
-    // {
-    //     id: 7,
-    //     category: 'ai',
-    //     image: Image7,
-    //     title: "Project Title Seven (Frontend)",
-    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    //     demo: 'https://kitwanaakil.com',
-    //     github: 'https://github.com/kakil'
-    // },
+    {
+        id: 7,
+        category: 'mobile',
+        image: Image7,
+        title: "Flutter Project (Mobile)",
+        desc: "A cross platform mobile app implemented with Flutter and Dart.  It runs on both iOS and Android with native look and feel for each platform respectively.",
+        demo: 'https://kitwanaakil.com',
+        github: 'https://github.com/kakil/dc_course_library'
+    },
     // {
     //     id: 8,
     //     category: 'crypto',

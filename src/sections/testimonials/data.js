@@ -20,15 +20,15 @@ const data = [
         quote: "I worked with Kitwana at Yellowbook and was always impressed with his ability to analyze, solve problems, and design solutions that met with the company's design goals and objectives. Kitwana worked very well with other people on the project, was one of the most productive parts of the team, both during the initial on site portion of the project and the subsequent remote portion.",
         avatar: Avatar2,
         name: 'Andrew Kinnie',
-        profession: 'iOS Developer'
+        profession: 'Senior iOS Developer'
         },
-        // {
-        // id: 3,
-        // quote: "Impressive work, buddy. Highly recommend!",
-        // avatar: Avatar3,
-        // name: 'Daniel Vinyo',
-        // profession: 'Graphic Designer'
-        // },
+        {
+        id: 3,
+        quote: "I had the pleasure of working with Kitwana for several years at ITEL, where he was responsible for leading the development of their iOS app. During our time at that company, his dedication to remaining up-to-date on the news, requirements and trends related to Apple development and guidelines helped to not only keep the teams prepared for whatever was coming, but also helped the stakeholders continually make informed decisions about the product as it was being designed.",
+        avatar: Avatar3,
+        name: 'Chris Smith',
+        profession: 'Lead Web Developer'
+        },
         // {
         // id: 4,
         // quote: "Wow. You finished earlier than you said. Everything's modern and beautifully done to the T. Great profession!",
