@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/kakilportfolio/static/css/main.48b3b0df.css",
+    "main.js": "/kakilportfolio/static/js/main.5dfb91b1.js",
+    "static/media/header.jpg": "/kakilportfolio/static/media/header.a878111fd4332ed0331e.jpg",
+    "static/media/about.jpg": "/kakilportfolio/static/media/about.a9d71ceeca2a5f293226.jpg",
+    "static/media/project7.png": "/kakilportfolio/static/media/project7.d096b40136922b2ad14f.png",
+    "static/media/project5.png": "/kakilportfolio/static/media/project5.e0678741118db3c5edf8.png",
+    "static/media/project9.jpg": "/kakilportfolio/static/media/project9.7e10b78179ee665298cd.jpg",
+    "static/media/cv.pdf": "/kakilportfolio/static/media/cv.85cafe077ae8bacd8bf5.pdf",
+    "static/media/project6.jpg": "/kakilportfolio/static/media/project6.4e8ab78eb40a0f03bc88.jpg",
+    "static/media/project8.jpg": "/kakilportfolio/static/media/project8.16ed43794953534af05c.jpg",
+    "static/media/project4.jpg": "/kakilportfolio/static/media/project4.8248252338237ed92410.jpg",
+    "static/media/project3.jpg": "/kakilportfolio/static/media/project3.dafb639fceec5213f2a2.jpg",
+    "static/media/logo.png": "/kakilportfolio/static/media/logo.fe5d04c5b51799d4ebc8.png",
+    "static/media/project1.jpg": "/kakilportfolio/static/media/project1.18407d8cd62111276d0f.jpg",
+    "static/media/project2.jpg": "/kakilportfolio/static/media/project2.3f591626f7090f6ec298.jpg",
+    "static/media/avatar5.jpg": "/kakilportfolio/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
+    "static/media/avatar7.jpg": "/kakilportfolio/static/media/avatar7.ce63ba75f4177d9803fc.jpg",
+    "static/media/avatar6.jpg": "/kakilportfolio/static/media/avatar6.8fbcd9d41881b442663e.jpg",
+    "static/media/avatar2.jpg": "/kakilportfolio/static/media/avatar2.4b2aec994576658c1094.jpg",
+    "index.html": "/kakilportfolio/index.html",
+    "main.48b3b0df.css.map": "/kakilportfolio/static/css/main.48b3b0df.css.map",
+    "main.5dfb91b1.js.map": "/kakilportfolio/static/js/main.5dfb91b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48b3b0df.css",
+    "static/js/main.5dfb91b1.js"
+  ]
+}
