@@ -390,3 +390,14 @@ This is the first project to adopt the standard deliberately from project incept
 The purpose is not bureaucracy.
 
 The purpose is to make each launch easier to understand, debug, teach, automate, and improve.
+
+
+---
+
+## WarriorPlus submission standard
+
+For Akil Digital products sold through WarriorPlus, use the companion reusable field/setup guide:
+
+`AKIL-DIGITAL-WARRIORPLUS-SUBMISSION-STANDARD.md`
+
+It preserves recurring product-form decisions such as categories, content type, access/reviewer information, AI disclosures, compliance checks, approval timing, and evidence capture. Product-specific values still belong in each project's `training-capture/09-warriorplus-setup.md`.
