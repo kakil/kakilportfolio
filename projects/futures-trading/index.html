@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Futures Trading Lab | Akil Digital</title>
-  <meta name="description" content="Follow Kitwana Akil's Futures Trading Lab: ES futures market-structure research, trading-system development, indicators, applications, Quant Finance learning, articles, videos, and documented experiments.">
+  <meta name="description" content="Akil Digital Futures Trading Lab: ES futures market-state research, Trading OS development, Kit Decision Engine engineering, backtesting, Quant Finance learning, tools, articles, and videos.">
   <meta name="theme-color" content="#07111f">
   <link rel="canonical" href="https://akildigital.com/projects/futures-trading/">
   <link rel="stylesheet" href="/styles.css">
@@ -27,81 +27,269 @@
 <main>
   <section class="page-hero">
     <div class="container">
-      <p class="eyebrow">Building in public · Futures Trading Lab</p>
-      <h1>Trading systems, market-structure research, software, and Quant Finance learning.</h1>
-      <p class="lede">This is the public entry point for my futures-trading work: documenting how I study ES futures, formalize execution rules, build indicators and applications, test ideas, learn quantitative finance, and publish the useful parts as articles and videos.</p>
+      <p class="eyebrow">Active lab · ES futures · trading systems · quantitative research</p>
+      <h1>Futures Trading Lab</h1>
+      <p class="lede">This is the public hub for my futures-trading work: the Trading Operating System I use to classify and execute markets, the Kit Decision Engine I build to support those decisions, the research and backtesting behind the rules, my Quant Finance learning, and the tools, articles, and videos that come out of the work.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#current-baseline">Current baseline</a>
+        <a class="button button-secondary" href="#trading-os">Trading OS</a>
+        <a class="button button-secondary" href="#kde">Kit Decision Engine</a>
+        <a class="button button-secondary" href="#research">Research</a>
+        <a class="button button-secondary" href="#quant">Quant Finance</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="current-baseline">
+    <div class="container content-stack">
+      <div class="notice"><strong>Current stage:</strong> active system development, live-market learning, regression testing, and research. This is an engineering and education project — not a signal service, performance promise, or individualized financial advice.</div>
+
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow section-kicker">Current baseline</p>
+          <h2>What is actually running today.</h2>
+        </div>
+        <p>The lab has moved beyond scattered notes. The Trading OS, KDE source, regression history, research plans, and evidence now live in a dedicated private control repository with known-good baselines.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <span class="tag">Trading system</span>
+          <h3>Trading OS v7.1</h3>
+          <p>The current operating system formalizes market classification, directional authority, decision zones, execution permission, structural trade management, session rules, and capital-protection guardrails.</p>
+        </article>
+
+        <article class="card">
+          <span class="tag">Known-good indicator</span>
+          <h3>KDE v6.3.26</h3>
+          <p>The current frozen Kit Decision Engine baseline passed settings cleanup, TradingView compilation, settings-panel validation, dashboard/runtime checks, and protected regression checks.</p>
+        </article>
+
+        <article class="card">
+          <span class="tag">Current engineering</span>
+          <h3>READY permission lifecycle</h3>
+          <p>The next controlled KDE change is focused on expiring stale completed READY permissions without destroying still-valid higher-timeframe setup evidence.</p>
+        </article>
+      </div>
+
+      <div class="band">
+        <div>
+          <h3>Private control repo, curated public layer.</h3>
+          <p>The source repository contains the operating system, KDE source, regression evidence, research, backtesting plans, Quant Finance work, and development history. Public material is selected from that evidence rather than mirroring the private repo.</p>
+        </div>
+        <a class="button button-secondary" href="/projects/">All projects</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trading-os">
+    <div class="container content-stack">
+      <article class="feature">
+        <div class="meta">Trading Operating System</div>
+        <h2>Classification before execution.</h2>
+        <p>The operating system is designed around a simple idea: do not start with an entry. Start by identifying what kind of market is actually present, then allow only the playbook that belongs to that state.</p>
+        <p>The live decision sequence is <strong>Location → Reaction → Acceptance → Continuation</strong>. Higher-timeframe and 5-minute structure provide permission; lower-timeframe behavior provides timing.</p>
+      </article>
+
+      <div class="grid-2">
+        <article class="card">
+          <span class="tag">Campaign</span>
+          <h3>Campaign Day</h3>
+          <p>Liquidity engagement, displacement, structure change, and acceptance away from equilibrium create the highest-priority expansion environment. Campaign playbooks override lower-priority modes.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Trend</span>
+          <h3>Trend Day / TCM</h3>
+          <p>A clean 5-minute 21 EMA trend, shallow corrective pullbacks, limited overlap, and no repeated return to EQ authorize trend-continuation execution.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Intraday flow</span>
+          <h3>Directional but incomplete</h3>
+          <p>When directional movement exists without full Campaign or TCM confirmation, participation is reduced and more mechanical. The goal is controlled participation, not aggressive prediction.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Protect capital</span>
+          <h3>Balance / No Trade</h3>
+          <p>Repeated EQ interaction, EMA/VWAP compression, overlap, two-sided wicks, and unclear direction are treated as information to stand down rather than invitations to force a trade.</p>
+        </article>
+      </div>
+
+      <article class="feature">
+        <div class="meta">Operating principle</div>
+        <h2>Expansion pays. Balance protects.</h2>
+        <p>The system is intentionally selective. The objective is not to predict every turn, catch every move, or trade all day. The objective is correct classification, one clean execution when the environment is authorized, and disciplined capital protection when it is not.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="kde">
+    <div class="container content-stack">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow section-kicker">Indicator engineering</p>
+          <h2>Kit Decision Engine</h2>
+        </div>
+        <p>KDE is a decision-support system, not an autonomous trading signal. Its job is to make state, authority, structure, balance, value, continuation, risk, and execution context easier to read consistently.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <span class="tag">State</span>
+          <h3>Market classification</h3>
+          <p>KDE surfaces Campaign, Trend, Intraday Flow, Balance/Transition, directional authority, EQ behavior, session context, and continuation state.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Execution</span>
+          <h3>Evidence sequence</h3>
+          <p>The setup tracker organizes evidence from location and reaction through 5-minute structure, authority, 1-minute VALUE, REASSERT, risk/runway, and READY.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Engineering</span>
+          <h3>Regression first</h3>
+          <p>Every material change is isolated, compiled, tested against protected behavior, documented, and frozen before the next state-machine change begins.</p>
+        </article>
+      </div>
+
+      <article class="feature">
+        <div class="meta">Current release history</div>
+        <h2>Preserve what works before changing what does not.</h2>
+        <p>The Phase 3 regression baseline closed with 8 of 8 protected tests passing. KDE v6.3.25 was imported and cryptographically verified, v6.3.26 removed 22 obsolete settings without changing intended trading behavior, and the current development work isolates stale READY-permission expiration as its own release.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <div class="container content-stack">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow section-kicker">Research & backtesting</p>
+          <h2>Move from chart intuition to evidence.</h2>
+        </div>
+        <p>The research track is designed to test specific claims about market state, authority, pullback quality, continuation, trade management, and PA-account constraints without pretending a few memorable trades prove a rule.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <span class="tag">Hypothesis</span>
+          <h3>Define the question first</h3>
+          <p>Each study starts with a falsifiable question, exact setup definition, data window, session rules, entry/exit assumptions, and the result that would reject the idea.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Method</span>
+          <h3>Reproducible testing</h3>
+          <p>Data provenance, contract handling, costs, slippage, sample size, parameter changes, limitations, and out-of-sample or walk-forward logic are recorded where applicable.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Evidence</span>
+          <h3>Keep failed studies</h3>
+          <p>Failed ideas stay in the record. The goal is to improve the decision system, not to create a clean-looking history that hides what did not work.</p>
+        </article>
+      </div>
+
+      <article class="feature">
+        <div class="meta">Research themes</div>
+        <h2>Questions the lab is built to investigate.</h2>
+        <p>Examples include balance-to-expansion transitions, 5m/15m EMA authority, acceptance versus rejection, corrective versus reversing pullbacks, VALUE and REASSERT behavior, continuation persistence, protected-structure management, late-entry degradation, and the interaction between trading edge and funded-account risk constraints.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="quant">
+    <div class="container content-stack">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow section-kicker">Quant Finance</p>
+          <h2>Build quantitative depth around real trading questions.</h2>
+        </div>
+        <p>The Quant Finance track is not separate from the trading lab. It is how I plan to test, measure, and challenge parts of the discretionary system with stronger statistical and market-microstructure tools.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <span class="tag">Foundation</span>
+          <h3>Probability & statistics</h3>
+          <p>Distributions, conditional probability, expectation, variance, sampling, confidence intervals, hypothesis testing, correlation, and practical market-data interpretation.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Markets</span>
+          <h3>Time series & microstructure</h3>
+          <p>Returns, volatility, stationarity, autocorrelation, regime behavior, liquidity, spreads, order flow, market impact, futures sessions, and execution cost.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Applied</span>
+          <h3>Systematic research projects</h3>
+          <p>Potential projects include market-state classification, EMA-authority analysis, expansion-transition studies, pullback-quality research, session expectancy, and drawdown/risk simulation.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tools-content">
+    <div class="container content-stack">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow section-kicker">Tools, articles & videos</p>
+          <h2>Publish from the work itself.</h2>
+        </div>
+        <p>The public side of the Futures Trading Lab will grow from actual engineering, research, and trading-system milestones rather than a content quota.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <span class="tag">Software</span>
+          <h3>Trading tools & applications</h3>
+          <p>Dashboards, research utilities, data workflows, backtesting helpers, risk tools, and other applications that solve problems discovered inside the lab.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Writing</span>
+          <h3>Articles & research notes</h3>
+          <p>Market-state breakdowns, indicator engineering decisions, research methodology, debugging lessons, case studies, and Quant Finance learning notes.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Video</span>
+          <h3>Walkthroughs & demonstrations</h3>
+          <p>Chart studies, KDE development walkthroughs, tool demonstrations, research explanations, and lessons drawn from specific development or market examples.</p>
+        </article>
+      </div>
+
+      <div class="band">
+        <div>
+          <h3>Public knowledge base is still being built.</h3>
+          <p>For now, selected Futures Trading material will appear through Akil Digital Insights. A dedicated <strong>futures.akildigital.com</strong> hub remains planned once there is enough public material to justify its own standalone surface.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="/insights/">Read Insights</a>
+          <a class="button button-secondary" href="https://www.youtube.com/@kitwanaakil">YouTube</a>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container content-stack">
-      <div class="notice"><strong>Current stage:</strong> active research, system development, and live-market learning. This is an engineering and education project, not a performance claim or financial advice.</div>
-
-      <article class="feature">
-        <div class="meta">Core direction</div>
-        <h2>Turn discretionary trading decisions into explicit systems.</h2>
-        <p>My focus is not on predicting every market move. It is on classifying market state, defining when a playbook is authorized, identifying the evidence required for execution, controlling risk, and preserving enough data to evaluate whether the process actually works.</p>
-        <p>The same engineering discipline I use in software development applies here: define the model, isolate the decision rules, test one controlled change at a time, preserve failures, and keep a known-good baseline.</p>
-      </article>
-
-      <div class="grid-3">
-        <article class="card">
-          <span class="tag">Trading systems</span>
-          <h3>Futures Trading Operating System</h3>
-          <p>A structured framework for market classification, directional authority, playbook selection, entry permission, risk management, trade management, and post-session review.</p>
-        </article>
-        <article class="card">
-          <span class="tag">Indicators</span>
-          <h3>Kit Decision Engine</h3>
-          <p>An evolving decision-support indicator built around market state, EMA authority, balance versus expansion, structure, value, continuation, and execution context.</p>
-        </article>
-        <article class="card">
-          <span class="tag">Software</span>
-          <h3>Trading tools and applications</h3>
-          <p>Utilities, dashboards, research tools, data workflows, backtesting support, and other software that emerge from problems I encounter while trading and studying markets.</p>
-        </article>
-      </div>
-
-      <article class="feature">
-        <div class="meta">What I plan to publish</div>
-        <h2>A durable trading knowledge base instead of scattered notes.</h2>
-        <p>The dedicated Futures Trading space will organize the work into practical material that can be revisited and improved over time.</p>
-      </article>
-
-      <div class="grid-3">
-        <article class="card">
-          <span class="tag">Research</span>
-          <h3>Market structure & execution</h3>
-          <p>Notes on trend, balance, expansion, liquidity, acceptance, continuation, pullbacks, structural invalidation, and the execution models I am testing.</p>
-        </article>
-        <article class="card">
-          <span class="tag">Learning</span>
-          <h3>Quant Finance</h3>
-          <p>My progression through probability, statistics, market microstructure, time-series analysis, backtesting, risk, derivatives, and quantitative trading research.</p>
-        </article>
-        <article class="card">
-          <span class="tag">Media</span>
-          <h3>Articles & videos</h3>
-          <p>Trading-system breakdowns, chart studies, development logs, indicator walkthroughs, tool demonstrations, lessons, and experiments published from the work itself.</p>
-        </article>
-      </div>
-
       <article class="feature">
         <div class="meta">Public / private boundary</div>
-        <h2>Share the learning without publishing everything.</h2>
-        <p>The public layer will contain educational material, selected research, tools, demonstrations, and documented lessons. Raw account information, credentials, private trade records, proprietary source code, and internal research that creates a real competitive advantage stay private by default.</p>
-        <p>This keeps the public material useful without turning the project into a real-time signal service or exposing sensitive trading infrastructure.</p>
+        <h2>Share the learning without publishing the entire edge.</h2>
+        <p>Public material can include system concepts, selected research, architecture, tools, demos, testing lessons, sanitized examples, and Quant Finance notes. Raw account information, credentials, unredacted trade records, licensed market data, proprietary source code, unpublished thresholds, and high-value internal research remain private by default.</p>
+        <p>The goal is a useful public lab — not a real-time signal room and not a mirror of the private control repository.</p>
       </article>
 
-      <div class="band">
-        <div>
-          <h3>Dedicated project workspace established</h3>
-          <p>The Futures Trading Lab now has its own private GitHub control repository for the Trading OS, KDE source, research, backtesting, Quant Finance learning, applications, and evidence. The planned public hub remains <strong>futures.akildigital.com</strong>. Until that standalone surface is ready, this page is the public project record.</p>
-        </div>
-        <div class="hero-actions">
-          <a class="button button-primary" href="/insights/">Read Insights</a>
-          <a class="button button-secondary" href="/projects/">Back to Projects</a>
-        </div>
+      <div class="grid-3">
+        <article class="card">
+          <span class="tag">Now</span>
+          <h3>Stabilize the execution engine</h3>
+          <p>Protect the known-good KDE baseline, finish READY-permission lifecycle work, and continue preserving regression evidence around every state-machine change.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Next</span>
+          <h3>Build research infrastructure</h3>
+          <p>Create repeatable study templates, data conventions, Python notebooks, backtesting methods, and the first quantitative investigations tied directly to Trading OS hypotheses.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Later</span>
+          <h3>Expand the public lab</h3>
+          <p>Publish selected research, videos, tools, open demonstrations, and eventually launch the standalone Futures Trading hub when the body of public work is substantial enough.</p>
+        </article>
       </div>
     </div>
   </section>
