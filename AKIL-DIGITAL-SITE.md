@@ -59,3 +59,23 @@ Current convention example:
 - Repository: `kakil/digital-opportunity-intelligence-2027`
 - Planned subdomain: `opportunity2027.akildigital.com`
 - Root-site status page: `/projects/digital-opportunity-intelligence-2027/`
+
+
+## Project tracking convention
+
+Every Akil Digital product/project repository must use the standard defined in:
+
+`AKIL-DIGITAL-PROJECT-TRACKING-STANDARD.md`
+
+In addition to the dedicated repository and AkilDigital.com subdomain, every product should maintain:
+- a frozen planning baseline in `docs/`
+- a living `training-capture/` record
+- exact high-value prompt capture
+- bugs/failures and fixes
+- testing/validation evidence
+- deployment/platform setup
+- launch/commercial tracking
+- known-good Git baselines
+- post-launch results and lessons
+
+Micro-Series Studio is the original detailed reference implementation. Digital Opportunity Intelligence 2027 is the first project adopting the convention from inception.
