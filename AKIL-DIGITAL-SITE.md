@@ -43,3 +43,19 @@ These were carried forward from the prior portfolio:
 - Legacy public business email: kitwana@akildev.com
 
 Replace the legacy email when the Akil Digital domain mailbox is ready.
+
+
+## Product repository and domain convention
+
+Effective October 2026, every Akil Digital product should have:
+- its own GitHub repository
+- its own AkilDigital.com subdomain
+- a status entry on the root AkilDigital.com site while it is being built
+
+The root site should link to the standalone product domain only when that product surface is ready. Until then, use a project-status page under `/projects/`.
+
+Current convention example:
+- Product: Digital Opportunity Intelligence 2027
+- Repository: `kakil/digital-opportunity-intelligence-2027`
+- Planned subdomain: `opportunity2027.akildigital.com`
+- Root-site status page: `/projects/digital-opportunity-intelligence-2027/`
