@@ -60,6 +60,12 @@ Current convention example:
 - Planned subdomain: `opportunity2027.akildigital.com`
 - Root-site status page: `/projects/digital-opportunity-intelligence-2027/`
 
+Current ongoing project example:
+- Project: Futures Trading Lab
+- Planned repository: `kakil/futures-trading`
+- Planned subdomain: `futures.akildigital.com`
+- Root-site status page: `/projects/futures-trading/`
+
 
 ## Project tracking convention
 
