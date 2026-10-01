@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Trading Operating System | Futures Trading Lab | Akil Digital</title>
+  <meta name="description" content="Public overview of the Futures Trading Lab Trading Operating System: market classification, decision hierarchy, playbook authorization, execution, and capital-protection rules.">
+  <meta name="theme-color" content="#07111f">
+  <link rel="canonical" href="https://akildigital.com/projects/futures-trading/trading-os/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+  <a class="brand" href="/"><span class="brand-mark">AD</span><span>AKIL DIGITAL</span></a>
+  <nav class="nav-links" aria-label="Primary"><a href="/products/">Products</a><a aria-current="page" href="/projects/">Projects</a><a href="/insights/">Insights</a><a href="/about/">About</a><a class="nav-cta" href="/contact/">Contact</a></nav>
+</div></header>
+
+<main>
+  <section class="page-hero"><div class="container">
+    <p class="eyebrow">Futures Trading Lab · Trading Operating System</p>
+    <h1>Classification before execution.</h1>
+    <p class="lede">The Trading OS is the rule layer behind the lab: determine the market state, identify directional authority, evaluate location and acceptance, authorize one playbook, manage risk structurally, and stand down when the environment is unclear.</p>
+    <div class="hero-actions"><a class="button button-primary" href="/projects/futures-trading/">Futures Lab</a><a class="button button-secondary" href="/projects/futures-trading/kde/">KDE</a><a class="button button-secondary" href="/projects/futures-trading/research/">Research</a></div>
+  </div></section>
+
+  <section class="section"><div class="container content-stack">
+    <div class="notice"><strong>Current public baseline:</strong> Trading Operating System v7.1 — Live Execution Edition. This page explains the framework at a public/educational level and does not publish the complete private operating manual.</div>
+
+    <article class="feature">
+      <div class="meta">Decision hierarchy</div>
+      <h2>Location → Reaction → Acceptance → Continuation</h2>
+      <p>The system separates context from permission and permission from timing. Location tells me where the market is. Reaction shows how price responds. Acceptance establishes which side is actually gaining authority. Continuation determines whether the move is behaving well enough to execute.</p>
+      <p>The objective is not to predict every turn. It is to participate only when market state and structure authorize the trade.</p>
+    </article>
+
+    <div class="grid-2">
+      <article class="card"><span class="tag">State 1</span><h3>Campaign</h3><p>Higher-priority expansion: liquidity engagement, displacement, structure change, acceptance away from EQ, and an open target. Campaign playbooks take precedence over lower-priority modes.</p></article>
+      <article class="card"><span class="tag">State 2</span><h3>Trend / TCM</h3><p>Price respects a clearly sloped 5-minute 21 EMA with shallow corrective pullbacks, limited overlap, and no repeated return to EQ. TCM is the authorized trend playbook.</p></article>
+      <article class="card"><span class="tag">State 3</span><h3>Intraday Flow</h3><p>A directional push exists, but the stronger Campaign or TCM conditions are incomplete. Participation is reduced, more mechanical, and designed around controlled continuation.</p></article>
+      <article class="card"><span class="tag">State 4</span><h3>Balance / No Trade</h3><p>Repeated EQ interaction, EMA/VWAP compression, two-sided wicks, overlap, and unclear direction are treated as a reason to protect capital instead of forcing an entry.</p></article>
+    </div>
+
+    <article class="feature">
+      <div class="meta">Playbook authorization</div>
+      <h2>One state. One authorized mode.</h2>
+      <p>Campaign conditions authorize the Campaign family. Trend conditions authorize TCM. Intraday Flow authorizes only the reduced Flow execution set. Balance authorizes nothing. The system intentionally prevents playbook mixing because classification is supposed to decide the mode before entry logic begins.</p>
+    </article>
+
+    <div class="grid-3">
+      <article class="card"><span class="tag">Authority</span><h3>5m / 15m directional firewall</h3><p>The 5-minute and 15-minute 21 EMA relationship, separation, structure, VWAP context, and acceptance help determine whether directional permission is actually present.</p></article>
+      <article class="card"><span class="tag">Timing</span><h3>1m execution evidence</h3><p>The lower timeframe is used for VALUE, REASSERT, continuation, micro structure, and execution timing. It does not independently create the higher-timeframe thesis.</p></article>
+      <article class="card"><span class="tag">Management</span><h3>Structure over emotion</h3><p>Corrective pullbacks are not treated as automatic failures. Protected structure and directional authority govern whether the trade is still valid.</p></article>
+    </div>
+
+    <article class="feature">
+      <div class="meta">Capital protection</div>
+      <h2>Expansion pays. Balance protects.</h2>
+      <p>The operating system is intentionally selective: no playbook mixing, no late chase, no trades near unclear EQ churn, no forced midday activity, and structural invalidation rather than arbitrary discomfort as the core exit logic.</p>
+    </article>
+
+    <div class="band"><div><h3>What will publish here</h3><p>Public Trading OS material will include selected framework explanations, sanitized chart examples, decision-tree walkthroughs, execution lessons, and version-change notes when they can be shared without exposing proprietary thresholds or private account data.</p></div><a class="button button-secondary" href="/projects/futures-trading/articles-videos/">Articles & videos</a></div>
+  </div></section>
+</main>
+
+<footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="/"><span class="brand-mark">AD</span><span>AKIL DIGITAL</span></a><p class="footer-copy">Practical software, AI-assisted systems, and digital products built by Kitwana Akil. Code. Create. Conquer.</p></div><div class="footer-links"><a href="/projects/futures-trading/">Futures Lab</a><a href="/insights/">Insights</a><a href="/about/">About</a><a href="/contact/">Contact</a></div></div></footer>
+</body>
+</html>

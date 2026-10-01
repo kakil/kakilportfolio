@@ -64,6 +64,13 @@ Current ongoing project example:
 - Project: Futures Trading Lab
 - Private control repository: `kakil/futures-trading`
 - Current public V1 hub: `/projects/futures-trading/`
+- Public content destinations:
+  - `/projects/futures-trading/trading-os/`
+  - `/projects/futures-trading/kde/`
+  - `/projects/futures-trading/research/`
+  - `/projects/futures-trading/quant-finance/`
+  - `/projects/futures-trading/tools/`
+  - `/projects/futures-trading/articles-videos/`
 - Planned standalone subdomain: `futures.akildigital.com`
 - Public approach: curate Trading OS, KDE, research, Quant Finance, tools, articles, and videos from verified private work without mirroring proprietary source or sensitive trading data
 
