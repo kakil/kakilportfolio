@@ -62,7 +62,7 @@ Current convention example:
 
 Current ongoing project example:
 - Project: Futures Trading Lab
-- Planned repository: `kakil/futures-trading`
+- Private control repository: `kakil/futures-trading`
 - Planned subdomain: `futures.akildigital.com`
 - Root-site status page: `/projects/futures-trading/`
 
