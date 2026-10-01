@@ -281,3 +281,34 @@ AI disclosure:
 > AI tools are used as assistive tools during the research, organization, analysis, drafting, and editing process. Akil Digital is responsible for selecting the opportunities, reviewing source material, interpreting evidence, making product recommendations, and editing the final report. AI-generated output is not treated as independently verified evidence, and factual claims are checked against cited or otherwise documented sources where applicable.
 
 These DOI2027 values are examples, not automatic defaults for every future product.
+
+
+---
+
+# 13. Affiliate Program screen
+
+WarriorPlus offer setup may include:
+- Affiliate Program ON/OFF
+- General Information
+- Program Details URL
+- Affiliate Contact Email
+- Affiliate Updates List
+- Affiliate Program Accelerator
+- Allow New Requests
+- Auto-Approval
+
+Reusable setup rules:
+- turn the Affiliate Program ON when the offer is intended for affiliate promotion,
+- use General Information for a concise affiliate-facing summary, launch date, and commission facts,
+- use Program Details URL for the real external JV/affiliate page only after it is live,
+- use only a real configured contact email,
+- do not connect an affiliate update list unless an intentional email integration exists,
+- leave promotional/accelerator features off unless deliberately chosen,
+- prefer manual affiliate approval initially unless the vendor intentionally changes the policy,
+- verify the actual global-account behavior when using “Use Default.”
+
+For Digital Opportunity Intelligence 2027 on October 1, 2026, the live account showed:
+- global setting: allowing new affiliate requests,
+- global auto-approval: disabled.
+
+Those account-specific values are not universal defaults for future products.
