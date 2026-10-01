@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kit Decision Engine | Futures Trading Lab | Akil Digital</title>
+  <meta name="description" content="Public development record for the Kit Decision Engine, a market-state and execution-context decision-support indicator built inside the Akil Digital Futures Trading Lab.">
+  <meta name="theme-color" content="#07111f">
+  <link rel="canonical" href="https://akildigital.com/projects/futures-trading/kde/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+  <a class="brand" href="/"><span class="brand-mark">AD</span><span>AKIL DIGITAL</span></a>
+  <nav class="nav-links" aria-label="Primary"><a href="/products/">Products</a><a aria-current="page" href="/projects/">Projects</a><a href="/insights/">Insights</a><a href="/about/">About</a><a class="nav-cta" href="/contact/">Contact</a></nav>
+</div></header>
+
+<main>
+  <section class="page-hero"><div class="container">
+    <p class="eyebrow">Futures Trading Lab · Indicator engineering</p>
+    <h1>Kit Decision Engine</h1>
+    <p class="lede">KDE is a decision-support indicator built to make market state, directional authority, balance, structure, value, continuation, risk, and execution context easier to read consistently. It does not replace the Trading OS and it is not an autonomous trade signal.</p>
+    <div class="hero-actions"><a class="button button-primary" href="/projects/futures-trading/">Futures Lab</a><a class="button button-secondary" href="/projects/futures-trading/trading-os/">Trading OS</a><a class="button button-secondary" href="/projects/futures-trading/research/">Research</a></div>
+  </div></section>
+
+  <section class="section"><div class="container content-stack">
+    <div class="notice"><strong>Known-good baseline:</strong> KDE v6.3.26. The current development branch is testing a separate READY-permission lifecycle change; it is not part of the frozen public baseline yet.</div>
+
+    <div class="grid-3">
+      <article class="card"><span class="tag">State</span><h3>Market classification</h3><p>Campaign, Trend, Intraday Flow, Balance/Transition, directional authority, EQ behavior, session context, and continuation state are surfaced in one decision layer.</p></article>
+      <article class="card"><span class="tag">Structure</span><h3>Context & control</h3><p>KDE tracks 1m/5m/15m/HTF EMA relationships, VWAP, protected structure, decision zones, liquidity references, swing/internal structure, and market-state conflicts.</p></article>
+      <article class="card"><span class="tag">Execution</span><h3>Permission, not prediction</h3><p>Lower-timeframe evidence is used to determine when a valid setup has actually reached executable conditions rather than merely looking directional.</p></article>
+    </div>
+
+    <article class="feature">
+      <div class="meta">Setup tracker</div>
+      <h2>A ten-step evidence sequence.</h2>
+      <p>The current tracker organizes the setup through Location, Reaction, 5m Displacement, 5m CHoCH, 5m BOS, Authority, 1m VALUE, 1m REASSERT, Risk/Runway, and READY. The tracker is designed to make the reasoning visible without granting independent authority over the chart.</p>
+    </article>
+
+    <div class="grid-3">
+      <article class="card"><span class="tag">Regression</span><h3>8 / 8 Phase 3 tests closed</h3><p>The preserved Phase 3 regression baseline closed with all eight protected behavior groups passing and no pending or failed tests.</p></article>
+      <article class="card"><span class="tag">v6.3.25</span><h3>Verified source baseline</h3><p>The v6.3.25 Pine source was migrated into the private control repository and verified byte-for-byte using SHA-256 before new development resumed.</p></article>
+      <article class="card"><span class="tag">v6.3.26</span><h3>Settings cleanup</h3><p>Twenty-two obsolete/dead inputs and three dead derived variables were removed. Compile, settings UI, dashboard, and runtime/regression checks passed before the release was frozen.</p></article>
+    </div>
+
+    <article class="feature">
+      <div class="meta">Current engineering</div>
+      <h2>READY should be permission, not a stale badge.</h2>
+      <p>The next controlled change is testing a finite READY lifecycle so a completed execution sequence cannot remain active indefinitely after the original lower-timeframe opportunity has gone stale. That work is deliberately isolated from market-state, Balance, authority, and management logic.</p>
+    </article>
+
+    <article class="feature">
+      <div class="meta">Development discipline</div>
+      <h2>One change, one regression gate, one known-good baseline.</h2>
+      <p>KDE changes are versioned separately, compiled in TradingView, tested against protected behavior, documented with evidence, and frozen before another state-machine change begins. Failed compiler/runtime attempts remain in the development record rather than being erased.</p>
+    </article>
+
+    <div class="band"><div><h3>Public KDE material</h3><p>This page will become the index for release notes, architecture explanations, regression lessons, screenshots, and selected walkthroughs. Proprietary source and private thresholds remain private unless a deliberate public-release decision is made.</p></div><a class="button button-secondary" href="/projects/futures-trading/articles-videos/">Articles & videos</a></div>
+  </div></section>
+</main>
+
+<footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="/"><span class="brand-mark">AD</span><span>AKIL DIGITAL</span></a><p class="footer-copy">Practical software, AI-assisted systems, and digital products built by Kitwana Akil. Code. Create. Conquer.</p></div><div class="footer-links"><a href="/projects/futures-trading/">Futures Lab</a><a href="/insights/">Insights</a><a href="/about/">About</a><a href="/contact/">Contact</a></div></div></footer>
+</body>
+</html>
